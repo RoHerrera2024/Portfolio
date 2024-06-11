@@ -1,0 +1,144 @@
+html{
+    scroll-behavior: smooth;
+}
+.contenedor-header header ul{
+    display: flex;
+    list-style: none;
+}
+.contenedor-header header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+}
+.contenedor-header header nav ul li a:hover{
+    color: darkred;}
+
+.nav-reponsive{
+    background-color: #0A0c10;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+} 
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0A0c10;
+    color: #ffffff;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:#0A0c10 
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+    margin-left: 480px;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: 35px;
+    transition: .3s;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 20px;
+    position: relative;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+.intro {
+    max-width: 50%;
+}
+.intro h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #ffffff;
+}
+.intro p {
+    font-size: 18px;
+    margin: 20px 0;
+    color: #ffffff;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+
+.photo{
+    position: relative;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo::before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: -10px;
+    width: 70%;
+    height: 80%;
+    border: 0.2px solid #4b4a4a;
+    border-radius: 10px;
+    z-index: -1;
+    transform: scale(1.1);
+
+}
+
+.circle::before {
+    content: '';
+    position: absolute;
+    top: 210px;
+    right: -20px;
+    width: 90px;
+    height: 90px;
+    border: 0.2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 80%;
+    z-index: -1;
+    transform: scale(1.2);
+}
+
+.photo img {
+    max-width: 300px;
+    border-radius: 10px;
+    margin-top: -30px;
+}
+
+.inicio.contenido-banner .redes a:hover{
+    background-color: #4b4a4a;
+}
+
