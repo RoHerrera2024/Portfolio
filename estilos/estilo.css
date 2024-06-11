@@ -35,6 +35,11 @@ header {
     font-weight: bold;
 }
 
+.logo a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
 .nav-reponsive {
     background-color: #0A0c10;
     color: #fff;
